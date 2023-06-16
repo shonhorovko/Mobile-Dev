@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Lab_7_Activity"
+    android:background="@color/Lab7_Background"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_marginHorizontal="50dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:onClick="buttonOpenClick"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style_lab7_activity"
+        android:text="@string/open_file"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_text" />
+
+    <EditText
+        android:background="@drawable/lab_7_eddittext_background"
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:lines="8"
+        android:minLines="14"
+        android:gravity="top|start"
+        android:maxLines="10"
+        android:hint="@string/Lab_7_hint_editText"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <Button
+        android:onClick="buttonSaveClick"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:id="@+id/save_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveToFile"
+        android:background="@drawable/button_style_lab7_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+</android.support.constraint.ConstraintLayout>

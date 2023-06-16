@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mobile-Dev</string>
+    <string name="Lab_8">Лабораторная работа №8</string>
+    <string name="Lab_7">Лабораторная работа №7</string>
+    <string name="Lab_9">Лабораторная работа №9</string>
+    <string name="Lab_7_hint_editText">Запишите свои идеи...</string>
+    <string name="saveToFile">Сохранить в файл</string>
+    <string name="open_file">Открыть из файла</string>
+</resources>
